@@ -1,0 +1,26 @@
+# Core training stack (install fairseq from source, v0.12.x)
+#   git clone https://github.com/facebookresearch/fairseq.git -b v0.12.2
+#   cd fairseq && pip install -e .
+torch>=1.9.0
+fairseq==0.12.2
+numpy
+scipy
+scikit-learn
+faiss-cpu
+editdistance
+kenlm
+npy-append-array
+tqdm
+soundfile
+pyyaml
+hydra-core
+omegaconf
+tensorboardX
+sentencepiece
+pyphen
+# pyphen+ extras (sylber/)
+syllapy
+wordsegment
+textgrid
+# MDCC jyutping
+ToJyutping

@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Slurm / experiment leftovers
+logs/
+*.out
+*.err
+nodelist.$
+*.pyc
+.DS_Store
+
+# SuperBPE trained artifacts (regenerate with superbpe/run_*.sh)
+superbpe/tokenizer_json/
+superbpe/tokenizers/
+superbpe/__pycache__/

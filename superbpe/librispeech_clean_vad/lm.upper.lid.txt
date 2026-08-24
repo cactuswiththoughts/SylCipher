@@ -1,0 +1,1 @@
+/data/sls/scratch/limingw/workplace/VGUnsupASR/manifest/librispeech_clean_vad/text_char_level/lm.upper.lid.txt
