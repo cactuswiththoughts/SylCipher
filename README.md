@@ -307,7 +307,7 @@ sbatch run_libri_clean_vad.sh          # edit s/e: 0–1 train, 10 match, 30 gre
 sbatch run_mls.slurm german
 ```
 
-## Train SylCipher (JSTTI)
+## Train SylCipher
 
 Training is `fairseq-train` with `--task speecht5 --t5-task discrete_pretrain_gan`. Stop when validation WER (`uer` in the logs) flattens. Adjust `--distributed-world-size`, `--update-freq`, and the SLURM `#SBATCH` GPU request to your cluster.
 
