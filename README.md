@@ -15,6 +15,12 @@ If you find this project to be useful, please consider cite our EMNLP 2026 [pape
 }
 ~~~~
 
+## Tutorial
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1csEhgQXJOiHYOpCQfmTdAQ3RJhXjXetq/view?usp=sharing)
+
+Run the tutorial in Google Colab using the button above, or [view and download the Jupyter notebook](reproduce_sylcipher_colab.ipynb) directly.
+
 ## Repository layout
 
 | Path | Role |
